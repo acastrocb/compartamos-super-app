@@ -1,0 +1,43 @@
+{
+  "name": "wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_OPTIONS=--disable-warning=DEP0155 react-native start --port 9002",
+    "test": "echo \"no tests in wallet\"",
+    "lint": "eslint .",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@legendapp/list": "catalog:",
+    "@module-federation/enhanced": "catalog:",
+    "@react-navigation/native": "catalog:",
+    "@react-navigation/native-stack": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "react-native-safe-area-context": "catalog:",
+    "react-native-screens": "catalog:"
+  },
+  "peerDependencies": {
+    "@shopify/react-native-skia": "catalog:peer",
+    "react-native-reanimated": "catalog:peer",
+    "react-native-worklets": "catalog:peer"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:",
+    "@babel/plugin-syntax-typescript": "catalog:",
+    "@callstack/repack": "catalog:",
+    "@react-native/babel-preset": "catalog:",
+    "@react-native/js-polyfills": "catalog:",
+    "@react-native/eslint-config": "catalog:",
+    "@react-native/typescript-config": "catalog:",
+    "@rspack/core": "catalog:",
+    "@swc/helpers": "catalog:",
+    "@types/react": "catalog:",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "eslint": "catalog:",
+    "super-app-showcase-sdk": "catalog:",
+    "typescript": "catalog:"
+  }
+}
